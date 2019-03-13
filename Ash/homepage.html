@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+</head>
+<body>
+<center>
+    <h1>Welcome to Wordcount</h1>
+    Enter your words
+    <form action="{% url 'count'%}">
+        <textarea cols="40" rows="10" name="txtarea1"></textarea><br>
+        <input type = "submit" value="Count!"/>
+
+
+
+
+    </form>
+    <a href="{% url 'about' %}">
+    <button>About Akash</button>
+</a>
+</center>
+</body>
+</html>
