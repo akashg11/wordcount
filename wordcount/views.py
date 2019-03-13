@@ -3,7 +3,7 @@ from django.shortcuts import render
 import operator
 
 def naya(request):
-    return HttpResponse("THis is your bou ")
+    return HttpResponse("THis is your boy")
 
 def about(request):
     return render(request, 'about.html')
