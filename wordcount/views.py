@@ -3,7 +3,7 @@ from django.shortcuts import render
 import operator
 
 def naya(request):
-    return HttpResponse("THis is your boy")
+    return HttpResponse("THis is your boy   ")
 
 def about(request):
     return render(request, 'about.html')
@@ -12,7 +12,7 @@ def about(request):
 def homepage(request):
     return render(request, 'homepage.html')
 
-def count(request):
+def count(request): 
     data = request.GET['txtarea1']
     word_list = data.split()
     list_length = len(word_list)
